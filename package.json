@@ -1,0 +1,30 @@
+{
+  "name": "@osu-cass/tslint-config",
+  "version": "1.0.1",
+  "description": "Shared tslint configuration",
+  "main": "tslint.json",
+  "files": [
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cass/tslint-config.git"
+  },
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/osu-cass/tslint-config/issues"
+  },
+  "homepage": "https://github.com/osu-cass/tslint-config#readme",
+  "devDependencies": {
+    "tslint-config-airbnb": "^5.4.2",
+    "tslint-config-prettier": "^1.6.0",
+    "tslint-language-service": "^0.9.6",
+    "tslint-microsoft-contrib": "^5.0.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alexlepinski"
+}
