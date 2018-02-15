@@ -40,7 +40,7 @@
         "no-implicit-dependencies": false,
         "prefer-method-signature": false,
         "react-this-binding-issued": false,
-        "no-redundant-js-doc": false
+        "no-redundant-jsdoc": false
     },
     "rulesDirectory": []
 }
