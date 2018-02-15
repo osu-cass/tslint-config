@@ -36,7 +36,11 @@
         "prettier/prettier": ["error", {
             "singleQuote": true
         }],
-        "export-name": false
+        "export-name": false,
+        "no-implicit-dependencies": false,
+        "prefer-method-signature": false,
+        "react-this-binding-issued": false,
+        "no-redundant-js-doc": false
     },
     "rulesDirectory": []
 }
