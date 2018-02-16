@@ -42,7 +42,7 @@
         "react-this-binding-issue": false,
         "no-redundant-jsdoc": false,
         "no-submodule-imports": false,
-        "no-http-strings": false
+        "no-http-string": false
     },
     "rulesDirectory": []
 }
