@@ -1,6 +1,6 @@
 {
   "name": "@osu-cass/tslint-config",
-  "version": "1.0.8",
+  "version": "1.0.8.alpha-1",
   "description": "Shared tslint configuration",
   "main": "tslint.json",
   "files": [

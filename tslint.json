@@ -41,7 +41,8 @@
         "prefer-method-signature": false,
         "react-this-binding-issue": false,
         "no-redundant-jsdoc": false,
-        "no-submodule-imports": false
+        "no-submodule-imports": false,
+        "no-http-strings": false
     },
     "rulesDirectory": []
 }
