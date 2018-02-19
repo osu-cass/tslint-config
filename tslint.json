@@ -6,7 +6,9 @@
         "tslint-config-airbnb",
         "tslint-config-prettier"
     ],
-    "jsRules": {},
+    "jsRules": {
+        
+    },
     "rules": {
         "prettier": true,
         "class-name": true,
@@ -42,7 +44,8 @@
         "react-this-binding-issue": false,
         "no-redundant-jsdoc": false,
         "no-submodule-imports": false,
-        "no-http-string": false
+        "no-http-string": false,
+        "no-increment-decrement": false
     },
     "rulesDirectory": []
 }
