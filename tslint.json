@@ -45,7 +45,8 @@
         "no-redundant-jsdoc": false,
         "no-submodule-imports": false,
         "no-http-string": false,
-        "no-increment-decrement": false
+        "no-increment-decrement": false,
+        "no-string-literal": false
     },
     "rulesDirectory": []
 }
