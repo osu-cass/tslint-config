@@ -1,6 +1,6 @@
 {
   "name": "@osu-cass/tslint-config",
-  "version": "1.0.8-alpha.4",
+  "version": "1.1.0",
   "description": "Shared tslint configuration",
   "main": "tslint.json",
   "files": [
@@ -17,12 +17,12 @@
   },
   "homepage": "https://github.com/osu-cass/tslint-config#readme",
   "devDependencies": {
-    "tslint-language-service": "^0.9.6"
+    "tslint-language-service": "^0.9.8"
   },
   "dependencies": {
-    "tslint-config-airbnb": "^5.4.2",
-    "tslint-config-prettier": "^1.6.0",
-    "tslint-microsoft-contrib": "^5.0.1"
+    "tslint-config-airbnb": "^5.7.0",
+    "tslint-config-prettier": "^1.9.0",
+    "tslint-microsoft-contrib": "^5.0.3"
   },
   "peerDependencies": {
     "tslint": "^5.8.0 || ^6",
