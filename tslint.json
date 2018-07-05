@@ -10,13 +10,13 @@
         
     },
     "rules": {
-        "prettier": true,
         "class-name": true,
         "comment-format": [true, "check-space"],
         "indent": [true, "spaces"],
         "one-line": [true, "check-open-brace", "check-whitespace"],
         "no-var-keyword": true,
         "semicolon": [true, "always", "ignore-bound-class-methods"],
+        "quotemark": [true, "single", "jsx-double", "avoid-escape"],
         "no-internal-module": true,
         "no-trailing-whitespace": true,
         "no-null-keyword": true,
@@ -35,9 +35,6 @@
         "no-shadowed-variable": false,
         "typedef": false,
         "prefer-type-cast": false,
-        "prettier/prettier": ["error", {
-            "singleQuote": true
-        }],
         "export-name": false,
         "no-implicit-dependencies": false,
         "prefer-method-signature": false,
