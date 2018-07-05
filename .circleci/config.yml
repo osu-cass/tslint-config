@@ -23,14 +23,14 @@ workflows:
       - deploy:
           filters:
             branches:
-              only: master
+              only:
+              - master
   audit:
     triggers:
       - schedule:
-          cron: "0 0 1 */2 *"
+          cron: "0 0 1 * *"
           filters:
             branches:
-              only:
-                - master
+              only: master
     jobs:
       - audit
