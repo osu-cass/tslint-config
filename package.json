@@ -1,17 +1,13 @@
 {
   "name": "@osu-cass/tslint-config",
   "version": "1.1.1",
-  "description": "Shared tslint configuration",
+  "description": "Oregon State University CASS shared tslint configuration",
   "main": "tslint.json",
-  "files": [
-    "README.md",
-    "LICENSE"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/osu-cass/tslint-config.git"
   },
-  "license": "MPL-2.0",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/osu-cass/tslint-config/issues"
   },
@@ -20,16 +16,22 @@
     "tslint-language-service": "^0.9.8"
   },
   "dependencies": {
-    "tslint-config-airbnb": "^5.7.0",
-    "tslint-config-prettier": "^1.9.0",
+    "tslint-config-airbnb": "^5.9.2",
+    "tslint-config-prettier": "^1.13.0",
     "tslint-microsoft-contrib": "^5.0.3"
   },
   "peerDependencies": {
-    "tslint": "^5.8.0 || ^6",
+    "typescript": "^2.9.2",
+    "tslint": "^5",
     "tslint-language-service": "^0.9.6 || ^1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "alexlepinski"
+  "contributors": [
+    {
+      "name": "Alex Lepinski"
+    },
+    {
+      "name": "Graham Barber",
+      "email": "graham.barber@oregonstate.edu"
+    }
+  ]
 }
