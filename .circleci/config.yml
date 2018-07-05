@@ -1,0 +1,36 @@
+version: 2
+jobs:
+  deploy:
+    working_directory: ~/project
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: npm ci
+      - run: npx semantic-release
+  audit:
+    working_directory: ~/project
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: npm ci
+      - run: npm audit
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: master
+  audit:
+    triggers:
+      - schedule:
+          cron: "0 0 1 */2 *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - audit
