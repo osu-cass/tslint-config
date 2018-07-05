@@ -3,6 +3,11 @@
   "version": "1.1.1",
   "description": "Oregon State University CASS shared tslint configuration",
   "main": "tslint.json",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/osu-cass/tslint-config.git"
