@@ -45,7 +45,7 @@
         "no-http-string": false,
         "no-increment-decrement": false,
         "no-string-literal": false,
-        "no-suspicious-comment": false
+        "no-multiline-string": false
     },
     "rulesDirectory": []
 }
